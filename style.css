@@ -73,6 +73,7 @@ body {
   margin: 30px auto;
   line-height: 2.5;
   text-align: left;
+  /*white-space: pre-wrap;*/
 }
 
 .works {
