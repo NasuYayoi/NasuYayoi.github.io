@@ -10,10 +10,11 @@ body {
     background-size: cover;
 }
 
-.header {
+.home {
     padding: 170px 30px 80px;
     height: 100vh;
-    background-color: rgba(25, 25, 120, 0.9);
+    background-color: #C5E99B;
+    opacity: 0.9;
 }
 
 .site-title-sub {
@@ -38,7 +39,7 @@ body {
     padding: 20px;
     margin: 10px;
     border-radius: 4px;
-    background-color: #afa58d;
+    background-color: #FFC042;
     color: #fff;
     text-decoration: none;
     letter-spacing: 1px;
@@ -49,13 +50,14 @@ body {
     opacity: 0.9;
 }
 
-.button-orange {
-    background-color: #f1b400;
+.button-contact {
+    background-color: #8CD790;
 }
 .profile {
   height: 100vh;
   padding: 80px 30px;
-  background-color: #ffffff;
+  background-color: #FFF4E1;
+  opacity: 0.9;
   color: #333;
 }
 
@@ -78,13 +80,14 @@ body {
 
 .works {
   height: 100vh;
-  background-color: #383634;
+  background-color: #757575;
+  opacity: 0.9;
   padding: 80px 0 10px;
 }
 
 .works-wrapper {
   display: table;
-  width: 860px;
+  width: 1000px;
   margin: 60px auto 0;
   table-layout: fixed;
 }
@@ -97,6 +100,7 @@ body {
 
 .work-image {
   display: block;
+  height: 171px;
   width: 100%;
 }
 
@@ -116,6 +120,15 @@ body {
 }
 
 .contact {
-  height: 100vh;
-  background-color: rgba(25, 25, 120, 0.9);
+  padding: 80px 0;
+  background-color: #C5E99B;
+  opacity: 0.9;
+}
+
+.sub-heading {
+  font-size: 16px;
+}
+
+.fa-twitter-square {
+
 }

@@ -5,20 +5,22 @@
   <title>ポートフォリオ</title>
   <link rel="stylesheet" type="text/css" href="normalize.css">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 <body>
-  <header class="header">
-    <p class="site-title-sub">----- Web application portfolio -----</p>
-    <h1 class="site-title">My WORKS</h1>
-    <p class="site-description">Check out some of my works.</p>
+  <header class="home" id="home">
+    <h1 class="site-title">Yayoi Nasu's Portfolio</h1>
+    <p class="site-title-sub">Web Engineer</p>
     <div class="buttons">
-      <a class="button" href="#profile">Profile</a>
-      <a class="button button-orange" href="#contact">Contact</a>
+      <a class="button fas fa-home fa-lg" href="#home">Home</a>
+      <a class="button fas fa-user fa-lg" href="#profile">Profile</a>
+      <a class="button fas fa-list-ul fa-lg" href="#works">Works</a>
+      <a class="button fas fa-envelope fa-lg" href="#contact">Contact</a>
     </div>
   </header>
 
   <section class="profile" id="profile">
-    <h2 class="heading">PROFILE</h2>
+    <h2 class="heading">Profile</h2>
     <p class="profile-text">
       はじめまして。那須弥生と申します。1994年生まれ、てんびん座、A型、神奈川県出身です。
       専修大学法学部を卒業後、通信会社の現場（客先常駐）でインフラエンジニアを1年8ヶ月ほどやっていました。
@@ -28,8 +30,8 @@
     </p>
   </section>
 
-  <section class= "works">
-    <h2 class="heading">MY WORKS</h2>
+  <section class= "works" id="works">
+    <h2 class="heading">My Works</h2>
     <div class="works-wrapper">
       <div class="work-box">
         <img class="work-image" src="images/pictweet.jpg" alt="制作事例">
@@ -48,9 +50,18 @@
       </div>
 
       <div class="work-box">
-        <img class="work-image" src="images/profy.jpg" alt="制作事例">
+        <img class="work-image" src="images/chatspace.jpg" alt="制作事例">
         <div class="work-description">
-          Profy<br>
+          ChatSpace<br>
+          <a href="#" class="button button-ghost">READ MORE</a>
+        </div>
+      </div>
+
+      <div class="work-box">
+        <img class="work-image" src="images/infra.jpg" alt="制作事例">
+        <div class="work-description">
+          Study-infra<br>
+          HTML/CSS/Ruby/Ruby on rails/GitHub/Materialize
           <a href="#" class="button button-ghost">READ MORE</a>
         </div>
       </div>
@@ -58,6 +69,11 @@
   </section>
 
   <section class="contact" id="contact">
+    <h2 class="heading">Contact</h2>
+    <p class="sub-heading">何かございましたら、以下よりDMにてご連絡ください。</p>
+      <a href="https://twitter.com/3bOjxPofg4ZY9Ev" target="_blank">
+        <i class="fab fa-twitter-square fa-lg">Twitter</i>
+      </a>
   </section>
 
 </body>
