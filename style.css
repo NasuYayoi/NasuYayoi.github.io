@@ -10,6 +10,10 @@ body {
     background-size: cover;
 }
 
+/*******************/
+/*******home********/
+/*******************/
+
 .home {
     padding: 170px 30px 80px;
     height: 100vh;
@@ -50,9 +54,10 @@ body {
     opacity: 0.9;
 }
 
-.button-contact {
-    background-color: #8CD790;
-}
+/*******************/
+/******profile******/
+/*******************/
+
 .profile {
   height: 100vh;
   padding: 80px 30px;
@@ -75,8 +80,12 @@ body {
   margin: 30px auto;
   line-height: 2.5;
   text-align: left;
-  /*white-space: pre-wrap;*/
 }
+
+
+/*******************/
+/*******works*******/
+/*******************/
 
 .works {
   height: 100vh;
@@ -119,6 +128,11 @@ body {
   border: 2px solid #fff;
   background-color: rgba(255, 255, 255, 0.15);
 }
+
+
+/*******************/
+/******contact******/
+/*******************/
 
 .contact {
   padding: 80px 0;
